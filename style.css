@@ -1,0 +1,88 @@
+/* make my background white and justify the text, with a little padding*/
+body {
+  background-color: #ffffff;
+  text-align: justify;
+  padding: 0 20%;
+}
+ 
+/* image styling */
+div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 200px;
+}
+
+/* header styling and image specifier*/
+header {
+  background-image: url("images/background.jpg");
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 1% 10%;
+}
+h1 {
+  font-size: 48px;
+
+}
+h2 {
+  font-size: 32px;
+
+}
+
+/* styling for the header h2, and h1*/
+h1, header h2{
+  font-family:cursive, sans-serif;
+  color: #ffffff;
+}
+
+/* h2 styling not in header */
+h2{
+  font-family:cursive, sans-serif;
+  color: #000000;
+}
+
+/* Paragraph and list styling */
+p, li {
+  font-size: 22px;
+  color: #51473b;
+}
+/* Footer styling*/
+footer {
+  background-color: rgb(69, 103, 148);
+  font-family: cursive, sans-serif;
+  font-size: 26px;
+  text-align: center;
+  color: aliceblue;
+  padding: 4%;
+}
+
+/* Default */
+a {
+  color: blue;
+}
+/* Unvisited links */
+a:link {
+  color: blue;
+}
+/* Visited links */
+a:visited {
+  color: purple;
+}
+/* Hover state */
+a:hover {
+  color: orange; 
+}
+/* Focused state */
+a:focus {
+  color: pink;
+}
+/* Activated state */
+a:active {
+  color: green;
+}
+
+
+ 
