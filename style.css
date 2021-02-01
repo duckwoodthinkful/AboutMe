@@ -1,7 +1,7 @@
 /* make my background white and justify the text, with a little padding*/
 body {
   background-color: #ffffff;
-  text-align: justify;
+  text-align: left;
   padding: 0 20%;
 }
  
@@ -17,7 +17,7 @@ div img {
 
 /* header styling and image specifier*/
 header {
-  background-image: url("images/background.jpg");
+  background-image: url("images/newbackground.jpg");
   text-align: center;
   margin-bottom: 0;
   margin-top: 0;
