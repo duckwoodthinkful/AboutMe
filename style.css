@@ -1,7 +1,7 @@
 /* make my background white and justify the text, with a little padding*/
 body {
   background-color: #ffffff;
-  text-align: justify;
+  text-align: left;
   padding: 0 2%;
 }
  
@@ -40,7 +40,6 @@ h1, header h2{
 
 /* h2 styling not in header */
 h2{
-  font-family:cursive, sans-serif;
   color: #000000;
 }
 
